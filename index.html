@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="navbar.html.erb">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
     <!--[if lt IE 9]>
@@ -21,84 +20,91 @@
 
   <body>
 
+    <div class="menu">
+      <ul>
+        <div class="menuitems active"><li><a href="#"><h3>HOME</h3></a></li></div>
+        <div class="menuitems"><li><a href="./subpages/signuppage.html"><h3>SIGN UP</h3></a></li></div>
+        <div class="menuitems"><li><a href="./subpages/aboutus.html"><h3>ABOUT US</h3></a></li></div>
+        <div class="menuitems"><li><a href="./subpages/contact.html"><h3>CONTACT</h3></a></li></div>
+  </ul>
+</div>
        
 
     <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://picsum.photos/id/1041/800/800);">
       <div class="container">
         <h1>Ecoschool teaches <strong>kids</strong> how to take care of <strong>our planet</strong>!</h1>
         <p>It takes everyone to save our planet</p>
-        <a class="btn btn-twitter" href="#">Start now</a>
+        <a class="btn btn-twitter" href="./subpages/signuppage.html">Sign Up</a>
         <i class="fas fa-water logo"></i>
       </div>
     </div>
 
     <ul class="list-inline tabs-underlined">
-      <li>
+      <li class="full-tab">
         <a href="#" class="tab-underlined active">
-          <h3> ALL CATEGORIES </h3>
+          <h2> ALL CATEGORIES </h2>
           <p> 350 videos </p>
         </a>
       </li>
       <li>
         <a href="#" class="tab-underlined">
-          <h3> PLASTIC POLLUTION </h3>
+          <h2> PLASTIC POLLUTION </h2>
           <p> 100 videos </p>
         </a>
       </li>
       <li>
         <a href="#" class="tab-underlined">
-          <h3> FOOD WASTE </h3>
+          <h2> FOOD WASTE </h2>
           <p> 50 videos </p>
         </a>
       </li>
       <li>
         <a href="#" class="tab-underlined">
-          <h3> AIR POLLUTION </h3>
+          <h2> AIR POLLUTION </h2>
           <p> 200 videos </p>
         </a>
       </li>
     </ul>
 
       <div class="card-product">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <img src="./images/industrialplant.jpg" />
         <div class="card-product-infos">
-          <h2>Product name</h2>
-          <p>Product description with <strong>relevant info</strong> only.</p>
+          <h2>CO2 Emissions</h2>
+          <p>Learn all about the impacts of CO2 on our world.</p>
         </div>
         <div class="card-product-btn">
-          <a class="btn btn-twitter" href="./videopages/videopage.html">Watch now</a>
+          <a class="btn btn-twitter" href="./subpages/videopage.html">Watch now</a>
         </div>
       </div>
       
       <div class="card-product">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <img src="./images/plastic.jpg" />
         <div class="card-product-infos">
-          <h2>Product name</h2>
-          <p>Product description with <strong>relevant info</strong> only.</p>
+          <h2>Microplastic</h2>
+          <p>Learn how microplastic can destroy underwater ecosystems.</p>
         </div>
         <div class="card-product-btn">
-          <a class="btn btn-twitter" href="./videopages/videopage.html">Watch now</a>
+          <a class="btn btn-twitter" href="./subpages/videopageplastic.html">Watch now</a>
         </div>
       </div>
 
       <div class="card-product">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <img src="./images/foodwaste.jpg" />
         <div class="card-product-infos">
-          <h2>Product name</h2>
-          <p>Product description with <strong>relevant info</strong> only.</p>
+          <h2>Foodwaste</h2>
+          <p>Learn how to reduce foodwaste.</p>
         </div>
         <div class="card-product-btn">
-          <a class="btn btn-twitter" href="./videopages/videopage.html">Watch now</a>
+          <a class="btn btn-twitter" href="./subpages/videopagefoodwaste.html">Watch now</a>
         </div>
       </div>  
 
       <div class="footer">
         <div class="footer-links">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/samirajil" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/samira_jil/?hl=de" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/samira.eilinger/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/samira-eilinger-734b3a116/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
         <div class="footer-copyright">
           This page is made with <i class="fas fa-heart"></i> by Samira Eilinger

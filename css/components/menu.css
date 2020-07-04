@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.menuitems {
+    display: inline;
+    margin: 20px; 
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+.menuitems.active h3{
+    border-bottom: 1px solid black;
+  }
+

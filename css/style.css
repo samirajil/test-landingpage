@@ -15,6 +15,7 @@
 @import url("components/card-product.css");
 @import url("components/footer.css");
 @import url("components/videopage.css");
+@import url("components/menu.css");
 
 /* --- Fonts --- */
 body {
@@ -25,4 +26,8 @@ body {
 
 h1, h2, h3 {
   font-family: "Montserrat", "sans-serif";
+}
+
+h2 {
+  font-size:20px;
 }
