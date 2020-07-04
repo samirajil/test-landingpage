@@ -1,0 +1,15 @@
+.logo {
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  background: #EDE7E3;
+  color: #16697A;
+  font-size:20px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 1px;
+}
+
+.logo:hover {
+	background: #B8D4D8;
+}
